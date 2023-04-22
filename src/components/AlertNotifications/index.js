@@ -39,7 +39,7 @@ const AlertNotifications = () => {
     <Notification>
       <MdWarning className="warning icon" />
       <div className="message-container">
-        <h1 className="warning message-heading">Error</h1>
+        <h1 className="warning message-heading">Warning</h1>
         <p className="description">
           Viewers of this file can see comments and suggestions
         </p>
@@ -51,9 +51,9 @@ const AlertNotifications = () => {
     <Notification>
       <MdInfo className="info icon" />
       <div className="message-container">
-        <h1 className="info message-heading">Error</h1>
+        <h1 className="info message-heading">Info</h1>
         <p className="description">
-          Viewers of this file can see comments and suggestions
+          Anyone on the internet can view these files
         </p>
       </div>
     </Notification>
